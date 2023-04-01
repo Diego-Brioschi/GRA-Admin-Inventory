@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root', '', 'oswa_inv');
+$conn = mysqli_connect();
 $page_title = 'Adicionar Produto';
 require_once('includes/load.php');
 $dataAtual = date('Y-m-d H:i:s');
